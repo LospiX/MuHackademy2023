@@ -1,1 +1,9 @@
-presentazione/
+presentazione/chapters
+presentazione/GemFile.lock
+presentazione/GemFile
+presentazione/revealjs-plugins
+presentazione/revealjs
+presentazione/prolog_2023.adoc
+./src/webscraping/browser
+src/webscraping/browser
+

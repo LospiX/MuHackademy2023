@@ -1,0 +1,130 @@
+= Title Slide
+:revealjs_hideCursorTime: 100
+:revealjs_theme: night 
+:imagesdir: images
+
+== Topic
+image::man.jpg[background, size=cover]
+
+[TIP,step=3]
+Finally, a pro tip...
+
+[WARNING,step=1]
+First, watch out for...
+
+[IMPORTANT.fade-up,step=2]
+Second, don't forget...
+
+== Trains, we love trains!
+
+video::kZH9JtPBq7k[youtube, start=34, options=autoplay]
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+=== Slide 1.1
+Hello
+
+=== Slide 1.2
+Hello My Friend
+
+== Slide Two
+
+A Great Story
+
+[.notes]
+--
+* tell anecdote
+* make a point
+--
+
+[.columns]
+== 2 columns
+
+[.column]
+--
+* **Edgar Allen Poe**
+* Sheri S. Tepper
+* Bill Bryson
+--
+
+[.column]
+--
+Edgar Allan Poe (/poʊ/; born Edgar Poe; January 19, 1809 – October 7, 1849) was an American writer, editor, and literary critic.
+--
+
+== Slide 4 
+[%auto-animate]
+== !
+
+[source%linenums,js,data-id=planets]
+----
+let planets = [
+  { name: 'mars', diameter: 6779 },
+]
+----
+
+[%auto-animate]
+== !
+
+[source%linenums,js,data-id=planets]
+----
+let planets = [
+  { name: 'mars', diameter: 6779 },
+  { name: 'earth', diameter: 12742 },
+  { name: 'jupiter', diameter: 139820 }
+]
+----
+
+[%auto-animate]
+== !
+
+[source%linenums,js,data-id=planets]
+----
+let circumferenceReducer = ( c, planet ) => {
+  return c + planet.diameter * Math.PI;
+}
+
+let planets = [
+  { name: 'mars', diameter: 6779 },
+  { name: 'earth', diameter: 12742 },
+  { name: 'jupiter', diameter: 139820 }
+]
+
+let c = planets.reduce( circumferenceReducer, 0 )
+----
+
+[%auto-animate]
+== !
+
+First Item
+
+[%auto-animate]
+== !
+
+First Item
+
+Second Item
+
+[%auto-animate%auto-animate-restart]
+== !
+
+First Item
+
+Second Item
+
+Third Item (restart)
+
+[%auto-animate]
+== !
+
+First Item
+
+Second Item
+
+Third Item (restart)
+
+Fourth Item

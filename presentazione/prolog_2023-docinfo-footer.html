@@ -1,0 +1,27 @@
+<!--
+<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/loadcontent/plugin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/animate/plugin.js"></script>
+Reveal.registerPlugin(RevealLoadContent) 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js"></script>
+-->
+<script src="revealjs-plugins/animate/plugin.js"></script> 
+<script src="revealjs-plugins/animate/svg.min.js"></script> 
+<script src="revealjs-plugins/loadcontent/plugin.js"></script>
+<script>
+  Reveal.configure({
+    animate: {
+        autoplay: true // default is false
+    },
+  }) 
+Reveal.initialize({
+    animate: {
+        autoplay: true // default is false
+    },
+    // ...
+    plugins: [ RevealLoadContent, RevealAnimat, RevealZoom ],
+    // ...
+});
+Reveal.registerPlugin(RevealLoadContent) 
+Reveal.registerPlugin(RevealAnimate) 
+Reveal.registerPlugin(RevealZoom) 
+</script>
